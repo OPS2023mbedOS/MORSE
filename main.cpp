@@ -16,7 +16,7 @@
 int main() {
 bool run = true;
   while (run) {
-      string word = "e";
+      string word = "sos";
       string morseWord = translateToMorse(word);
       morseBlink(morseWord);
   }
